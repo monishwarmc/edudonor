@@ -10,7 +10,7 @@ const App = () => {
 
   const [add, setAdd] = useState();
   const [balance, setBalance] = useState();
-
+  const isProv = window.ethereum != undefined;
   const provider = new ethers.providers.Web3Provider(window.ethereum)
   const signer = provider.getSigner()
 
@@ -256,7 +256,8 @@ const App = () => {
   const ethContractSigner = ethContract.connect(signer);
 
   return (
-    <>
+    <>{ isProv ?
+      <>
       <Header
       contract={contract}
       setAdd={setAdd}
@@ -276,8 +277,12 @@ const App = () => {
           ethContract={ethContract}
           />
         </Tab>
-      </TabList>
-      
+      </TabList></>
+      :
+      <>
+      <h1>install metamask</h1>
+      </>
+} 
     </>
   )
 }

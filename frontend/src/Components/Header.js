@@ -1,5 +1,5 @@
 import { Badge, Button, Credentials, Loading } from '@web3uikit/core';
-import React, { useState } from 'react'
+import React from 'react'
 import { useAccount, useConnect, useContractRead, useDisconnect } from 'wagmi'
 import {MetaMaskConnector} from 'wagmi/connectors/metaMask';
 

@@ -17,6 +17,16 @@ const Donate = ({ ethContractSigner, ethContract }) => {
         console.error('Error donating:', error);
       }
     };
+    const handleAllocate = async () => {
+        try {
+          await ethContractSigner.allocateFunds(
+              {gasLimit: 3000000}
+          );
+          console.log('allocated successful');
+        } catch (error) {
+          console.error('Error donating:', error);
+        }
+      };
     const ne = "Needed~" + needed + 'wei';
     const re = "Received~" + received + 'wei';
     async function mm(){
@@ -72,6 +82,14 @@ const Donate = ({ ethContractSigner, ethContract }) => {
                 />
             </form>
         </Hero>
+        <Button
+        style={{
+            margin:'0.6rem',
+        }}
+        text="allocate"
+        theme="primary"
+        onClick={handleAllocate} 
+        />
         </>
     );
   };
