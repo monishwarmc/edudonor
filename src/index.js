@@ -4,6 +4,7 @@ import App from './App';
 import { configureChains, WagmiConfig, createClient } from 'wagmi'
 import { publicProvider } from 'wagmi/providers/public'
 import { sepolia } from '@wagmi/chains';
+import './index.css'
 
 const { provider, webSocketProvider } = configureChains(
   [sepolia],
