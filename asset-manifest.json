@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/edudonor/static/css/main.d91045d8.css",
-    "main.js": "/edudonor/static/js/main.15bd8316.js",
+    "main.js": "/edudonor/static/js/main.f3727af8.js",
     "static/js/850.f3de3c9f.chunk.js": "/edudonor/static/js/850.f3de3c9f.chunk.js",
     "static/js/302.08325aa8.chunk.js": "/edudonor/static/js/302.08325aa8.chunk.js",
     "static/js/362.9e338808.chunk.js": "/edudonor/static/js/362.9e338808.chunk.js",
@@ -26,7 +26,7 @@
     "static/media/people-holding-rubber-heart.jpg": "/edudonor/static/media/people-holding-rubber-heart.9d06752ef9434f9031ad.jpg",
     "index.html": "/edudonor/index.html",
     "main.d91045d8.css.map": "/edudonor/static/css/main.d91045d8.css.map",
-    "main.15bd8316.js.map": "/edudonor/static/js/main.15bd8316.js.map",
+    "main.f3727af8.js.map": "/edudonor/static/js/main.f3727af8.js.map",
     "850.f3de3c9f.chunk.js.map": "/edudonor/static/js/850.f3de3c9f.chunk.js.map",
     "302.08325aa8.chunk.js.map": "/edudonor/static/js/302.08325aa8.chunk.js.map",
     "362.9e338808.chunk.js.map": "/edudonor/static/js/362.9e338808.chunk.js.map",
@@ -51,6 +51,6 @@
   },
   "entrypoints": [
     "static/css/main.d91045d8.css",
-    "static/js/main.15bd8316.js"
+    "static/js/main.f3727af8.js"
   ]
 }
